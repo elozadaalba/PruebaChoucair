@@ -25,7 +25,7 @@ public class ChoucairAcademyStepDefinitions {
     public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(String course) {
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
     }
-
+//The name of the course was changed because I did not have access with my username in the other part
     @Then("^he finds the course called resources (.*)$")
     public void heFindsTheCourseCalledResourcesPatronesdeAutomatizacion(String question){
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
