@@ -1,11 +1,10 @@
 package co.com.choucair.certification.prueba.userinterface;
-
-import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-//The xpath does not work as in the manual so it is modified and because the access changes also change the identification of the xpaths at this point
-public class SearchCoursePage extends PageObject {
+//The xpath does not work as in the manual so it is modified and because the access changes also change the
+// identification of the xpaths at this point
+public class SearchCoursePage{
     public static final Target BUTTON_UNIVERSIDADC =  Target.the("Select the img in  " +
             "choucair page").located(By.xpath("/html/body/div[2]/div[2]/div/div/div/section[1]/div[2]/aside/section" +
             "[1]/div/div/div[1]/center/div/div/div/div[2]/a/img"));
